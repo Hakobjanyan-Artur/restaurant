@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../../fonts/Roboto-Regular.ttf)
+}
+@font-face {
+    font-family: 'Else';
+    src: url(../../fonts/Elsie-Regular.ttf)
+}
+.navbar {
+    position: absolute;
+    width: 100%;
+}
+.navbar .container .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0; 
+}
+.navbar .container .nav .left .burger {
+    font-size: 30px;
+    transform: translateY(5px);
+    color: #CFD2C6;
+}
+.navbar .container .nav .left {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+.navbar .container .nav .middle h1{
+    font-family: 'Else', sans-serif;
+    color: #CFD2C6;
+}
+.navbar .container .nav .right {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar .container .nav .right .lang {
+    color: #CFD2C6;
+    cursor: pointer;
+}
+.navbar .container .nav .content {
+    color: #CFD2C6;
+}
+.navbar .container .nav .content:hover {
+    text-decoration: underline;
+}
+.navbar .container .nav .click {
+    text-decoration: underline;
+    color: #CFD2C6;
+}

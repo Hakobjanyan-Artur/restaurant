@@ -2,7 +2,15 @@ import './Home.css'
 
 function Home() {
     return (
-        <h1>Home</h1>
+        <div className='home'>
+            <div className='container'>
+                <div className='hometxt'>
+                    <h1>
+                        Made by Italians. Enjoyed by Everyone.
+                    </h1> 
+                </div>
+            </div>
+        </div>
     )
 }
 
